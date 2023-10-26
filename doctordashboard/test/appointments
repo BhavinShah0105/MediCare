@@ -1,0 +1,173 @@
+
+    <!DOCTYPE html>
+    <html lang="en-us">
+
+      <head>
+        <meta charset="utf-8">
+        
+        
+        
+
+        
+   
+        
+        
+        
+        <link rel="stylesheet" type="text/css" href="css/bootstrap-custom.min.css" />
+        <link rel="stylesheet" type="text/css" href="css/home-fc7feca9f503fbeaf0f12645f3d0f2dc.css" />
+        <style>
+          body {
+            background-color: #f0f0f5;
+          }
+
+          .loader {
+            height: 80px;
+            width: 80px;
+            display: -webkit-box;
+            display: -ms-flexbox;
+            display: flex;
+            -webkit-box-orient: horizontal;
+            -webkit-box-direction: normal;
+            -ms-flex-direction: row;
+            flex-direction: row;
+            -ms-flex-pack: distribute;
+            justify-content: space-around;
+            -webkit-box-align: center;
+            -ms-flex-align: center;
+            align-items: center;
+            .circle {
+              height: 16px;
+              width: 16px;
+              border-radius: 50%;
+              display: inline-block;
+              background: #000;
+              -webkit-animation-duration: 1s;
+              animation-duration: 1s;
+              -webkit-animation-name: glow;
+              animation-name: glow;
+              -webkit-animation-iteration-count: infinite;
+              animation-iteration-count: infinite;
+            }
+            .circle-one {
+              -webkit-animation-delay: 0s;
+              animation-delay: 0s;
+            }
+            .circle-two {
+              -webkit-animation-delay: 0.25s;
+              animation-delay: 0.25s;
+            }
+            .circle-three {
+              -webkit-animation-delay: 0.5s;
+              animation-delay: 0.5s;
+            }
+          }
+
+          .loader-wrapper {
+            height: 100%;
+            width: 100%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+          }
+
+          @-webkit-keyframes glow {
+            from {
+              opacity: 0.2;
+            }
+            50% {
+              opacity: 0.8;
+            }
+            to {
+              opacity: 0.2;
+            }
+          }
+
+          @keyframes glow {
+            from {
+              opacity: 0.2;
+            }
+            50% {
+              opacity: 0.8;
+            }
+            to {
+              opacity: 0.2;
+            }
+          }
+
+        </style>
+        
+      </head>
+
+     
+      <body>
+        <div id="mainContainer">
+          <div data-reactroot="" class="main-container bg-grey">
+            <div class="app-container">
+            <div class="practo-nav">
+              
+            </div>
+            <div class="row" id="userCardContainer">
+              <div class="col-sm-12 hidden-xs user-card-wrapper separator"><div class="user-card row bg-white">
+                <div class="product-name heading-two col-sm-3 col-lg-2">Your Drive</div>
+                <div class="user-info col-sm-9 col-lg-10">
+                  <img alt="user" class="user-image" src="abc.png"><div class="user-details">
+                    <div class="user-name heading-four">vaibhav</div>
+                    <div class="user-contact text-small subtle"><!-- react-text: 66 -->+919021512959<!-- /react-text --><!-- react-text: 18 --><!-- /react-text --></div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="row" id="sideBarAppContainer">
+            <div class="col-sm-3 col-lg-2 hidden-xs sidebar-wrapper">
+              <div class="sidebar bg-white">
+                <a class="sidebar-link" href="/records">
+                  <div class="sidebar-item text separator"><!-- react-text: 24 -->Medical records<!-- /react-text -->
+                    <span class="unread-count text-small hidden">0</span></div></a>
+                    <a class="sidebar-link" href="/appointments">
+                      <div class="sidebar-item active heading-four separator"><!-- react-text: 28 -->Appointments<!-- /react-text -->
+                        <span class="unread-count text-small hidden">0</span></div></a>
+                        <a class="sidebar-link" href="/tests">
+                          <div class="sidebar-item text separator"><!-- react-text: 32 -->Lab Tests<!-- /react-text -->
+                            <span class="unread-count text-small hidden">0</span></div></a>
+                            
+                            <a class="sidebar-link" href="/orders">
+                              
+                              <div class="sidebar-item text separator"><!-- react-text: 36 -->Medicine Orders<!-- /react-text -->
+                                <span class="unread-count text-small hidden">0</span></div></a>
+                                <a class="sidebar-link" href="/consultations">
+                                  <div class="sidebar-item text separator"><!-- react-text: 40 -->Online Consultations<!-- /react-text -->
+                                    <span class="unread-count text-small hidden">0</span>
+                                  </div>
+                                </a>
+                                <a class="sidebar-link" href="/articles"><div class="sidebar-item text separator"><!-- react-text: 44 -->Articles<!-- /react-text -->
+                                  <span class="unread-count text-small hidden">0</span>
+                                </div></a>
+                                <a class="sidebar-link" href="/feedback"><div class="sidebar-item text separator"><!-- react-text: 48 -->Feedback<!-- /react-text -->
+                                  <span class="unread-count text-small hidden">0</span>
+                                </div></a>
+                                <a class="sidebar-link" href="/payments"><div class="sidebar-item text separator"><!-- react-text: 52 -->Payments<!-- /react-text -->
+                                  <span class="unread-count text-small hidden">0</span>
+                                </div></a></div>
+                              </div>
+                              <div class="col-sm-9 col-lg-10 col-xs-12 product-container-wrapper">
+                                <div></div>
+                                <div class="appointment-container bg-grey">
+                                  <div class="m-heading-three product-title hidden-sm hidden-md hidden-lg bg-white">Appointments</div>
+                                  <div class="no-appointments">
+                                    
+                                    <div class="no-appointments-img">
+                                      
+                                      <img alt="no-appointments" src="/images/no_record_logo.svg">
+                                    </div>
+                                    <div class="no-appointments-msg text">Sorry, you don't have any appointments</div>
+                                  </div>
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+      </body>
+    </html>

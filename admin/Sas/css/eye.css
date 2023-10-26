@@ -1,0 +1,9 @@
+.eye{
+position:absolute;
+    top: 25px;
+        left: 260px;
+}
+
+#hide1{
+	display: none;
+}
